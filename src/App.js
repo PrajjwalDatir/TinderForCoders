@@ -1,5 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Cards from "./cards";
+
+// for (let index = 0; index < Cards.length; index++) {
+//   const element = Cards[index];
+//   console.log(element['firstName']);
+// }
 
 function App() {
   return (
@@ -21,5 +27,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
