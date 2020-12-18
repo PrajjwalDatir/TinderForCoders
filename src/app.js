@@ -4,11 +4,12 @@
 // 👔 All components must be created with their file name to avoid confusion.
 
 import React from 'react'
-import {Card} from "card";
+import Card from "./card";
+
 export default function App() {
   return (
     <div>
       <Card></Card>
     </div>
-  )
+  );
 }
