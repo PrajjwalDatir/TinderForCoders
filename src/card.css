@@ -1,6 +1,6 @@
 * {
-  margin       : 0;
-  padding      : 0;
+  margin       : 0.5rem;
+  padding      : 0.01rem;
   box-sizing   : border-box;
   align-content: center;
 
@@ -11,14 +11,16 @@
  #313842 (Dark Gray) (Background)
  #BEBEBE (Light Gray) (text)
  */
-
+ :root {
+  font-size: 62.5%;
+}
 body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   width: 100%;
   height: 100%;
-  align-items: stretch;
+  align-items: unset;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background : #313842;
   color      : #BEBEBE;
@@ -28,19 +30,61 @@ body {
   778x894
 */
 .infoCard{
+  /* 👩‍❤️‍👩 Parent */
+  align-self: flex-end;
+
+  /* 🧒 child */
   display: flex;
   flex-direction: column;
-  width: 40.52%;
+  width: 30.52%;
   height: 82.78%;
   justify-content: center;
   align-items: center;
-  border: 10px solid white;
+  border: 5px solid #BEBEBE;
   border-radius: 3%;
-  min-height: 650px;
+  min-height: 45rem;
+  min-width: 30em;
+  gap: 1rem;
+
 }
 .infoCardChild{
   display: flex;
+  font-size: 2rem;
   /* justify-content: center; */
   align-items: center;
   text-align: center;
+  color: #192028;
+  background-color: #BEBEBE;
+  border: 0.5rem double #192028;
+  font-size: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+img{
+  font-size: 2rem;
+  background-color: #BEBEBE;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  color: #192028;
+  border: 0.5rem double #192028;  
+
+}
+.cardBtn{
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  color: #192028;
+  gap: 0.1rem;
+  padding : 0.01rem;
+  border: 0.5rem double #192028;  
 }
