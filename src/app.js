@@ -9,7 +9,7 @@ import Card from "./card";
 export default function App() {
   return (
     <div>
-      <Card></Card>
+      <Card ></Card>
     </div>
   );
 }
