@@ -1,4 +1,4 @@
-const Cards = [
+export const Cards = [
   {
     firstName: 'prajjwal',
     lastName: 'datir',
@@ -35,4 +35,3 @@ const Cards = [
     profilePhoto: './images/rem_001.jpg',
   }
 ]
-export default Cards;
