@@ -8,7 +8,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './style/index.css';
 import HomeApp from './pages/homeapp';
 import reportWebVitals from './reportWebVitals';
 

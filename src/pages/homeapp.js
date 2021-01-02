@@ -5,16 +5,28 @@
 
 import React from 'react'
 import PeopleCards from "../components/peoplecards";
-import "./main.css";
+import "../style/main.scss";
 
 export default function HomeApp() {
   return (
     <div className="parentApp">
-      <div>
-        <h1>Tinder For Coders 🔥</h1>
-        <h3>Not For 🐬 </h3>
+    
+      <div className="chatApp">
+          This is the Profile and<br/> Chat app
       </div>
-      <PeopleCards ></PeopleCards>
+    
+      <div className="swipeApp">
+    
+        <div className="heading">
+          <h1>Tinder For Coders 🔥</h1>
+          <h3>Not For 🐬 </h3>
+        </div>
+    
+        <PeopleCards className="peopleCards">
+
+        </PeopleCards>
+
+      </div>
     </div>
   );
 }
