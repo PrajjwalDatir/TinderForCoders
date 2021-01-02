@@ -9,12 +9,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './app';
+import HomeApp from './pages/homeapp';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HomeApp />
   </React.StrictMode>,
   document.getElementById('root')
 );

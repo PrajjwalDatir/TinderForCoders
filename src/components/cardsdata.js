@@ -4,7 +4,7 @@ export const cardsData = [
     lastName: 'datir',
     age: 20,
     country: 'india',
-    profilePhoto: '../images/prajjwal_000.jpg',
+    profilePhoto: './images/prajjwal_000.jpg',
   },
   {
     firstName: 'shourya',

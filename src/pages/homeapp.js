@@ -4,12 +4,17 @@
 // 👔 All components must be created with their file name to avoid confusion.
 
 import React from 'react'
-import Cards from "./card";
+import PeopleCards from "../components/peoplecards";
+import "./main.css";
 
-export default function App() {
+export default function HomeApp() {
   return (
-    <div>
-      <Cards ></Cards>
+    <div className="parentApp">
+      <div>
+        <h1>Tinder For Coders 🔥</h1>
+        <h3>Not For 🐬 </h3>
+      </div>
+      <PeopleCards ></PeopleCards>
     </div>
   );
 }
